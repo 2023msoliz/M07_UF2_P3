@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Inazuma Eleven",
+        "artist": "Miguel Angel Valera",
+        "path": "Inazuma Eleven - Opening.mp3",
+        "duration": "3:00",
+        "img": "inazuma-eleven.jpg"
+    },
+    {
+        "name": "Normal",
+        "artist": "Morad",
+        "path": "Morad Normal.mp3",
+        "duration": "0:27",
+        "img": "normal-morad.jpg"
+    },
+    {
+        "name": "Cheap Thrills",
+        "artist": "Sia",
+        "path": "Sia - Cheap Thrills.mp3",
+        "duration": "2:45",
+        "img": "Sia_Cheap_Thrills.jpg"
+    }
+]

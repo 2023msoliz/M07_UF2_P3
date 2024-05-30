@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Reproductor de Audio</title>
+</head>
+<body>
+    <div class="player">
+        <div class="logo-container">
+            <img id="album-cover" src="" alt="Portada del álbum">
+        </div>
+        <!-- Div para el nombre de la canción, artista, etc. -->
+        <div class="info-container">
+            <div class="song-info">
+                <h2 id="song-title">Nombre de la canción</h2>
+                <p id="artist-name">Artista</p>
+                <p id="remaining-time">0:00</p>
+            </div>
+            <audio id="audio-player">
+                Tu navegador no admite la reproducción de audio.
+            </audio>
+        </div>
+        <!-- Div para los controles del reproductor -->
+        <div class="controls-container">
+            <div class="controls">
+                <img id="prev-btn" class="control-btn" src="skip_previous.png" alt="Anterior">
+                <img id="play-btn" class="control-btn" src="play_circle.png" alt="Reproducir">
+                <img id="pause-btn" class="control-btn" src="pause_circle.png" alt="Pausar" style="display: none;">
+                <img id="next-btn" class="control-btn" src="skip_next.png" alt="Siguiente">
+            </div>
+            <input type="range" id="volume-slider" min="0" max="100" value="50">
+        </div>
+    </div>
+</body>
+</html>
